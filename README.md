@@ -4,6 +4,9 @@
 
 This report presents **MopMonk Agent**, a memory-centric Multi-Agent design for general-purpose vulnerability mining tasks. Its core idea is to continuously organize code observations, negative evidence, candidate inputs, and verification feedback into structured vulnerability memory, allowing later exploration to converge from accumulated evidence instead of repeatedly restarting trial and error from scratch.
 
+## Contact
+MopMonk.AI@proton.me
+
 ## Benchmark
 
 We evaluated MopMonk on CyberGym Level 1 with a 4-hour timeout setting. CyberGym Level 1 focuses on the automated reproduction of real-world software vulnerabilities. Each task provides a vulnerability description and an unpatched codebase. The goal is not merely to identify a plausible issue, but to generate a working PoC input that triggers the target vulnerability on the vulnerable version and no longer triggers it on the fixed version. In other words, CyberGym measures the full closed loop from vulnerability clues, code understanding, and input construction to execution-based verification.
