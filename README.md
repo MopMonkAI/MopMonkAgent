@@ -93,4 +93,4 @@ Overall, our main contribution is to turn vulnerability mining into an accumulat
 - The current system still requires substantial computational resources, and further optimization is needed to improve its overall efficiency.
 
 ## Contact
-MopMonk.AI@proton.me
+contact@mopmonk.org
